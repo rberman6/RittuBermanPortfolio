@@ -1,0 +1,32 @@
+.navBar {
+    padding-top: 20px;
+    ul {
+        display: flex;
+        justify-content: center; 
+        border-top: solid 1px $quinary;
+        border-bottom: solid 1px $quinary;
+        background-color: $primary;
+        li {
+            // background-color: $secondary;
+            padding: 15px 70px;
+            border-right: solid 1px $quinary;
+            // border-left: solid 1px $quinary;
+            a {
+                &:hover {
+                        background-color: $secondary;
+                        padding: 15px 100px;
+                    }
+                    &:focus {
+                        background-color: $secondary;
+                    }
+            }
+            
+        }
+        li:first-child {
+            border-left: solid 1px $quinary;
+        }
+        li:last-child {
+            border-right: solid 1px $quinary;
+        }
+    }
+}

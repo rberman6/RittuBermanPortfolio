@@ -226,6 +226,27 @@ html {
   overflow: hidden;
 }
 
+ul,
+li,
+a,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 /* site fonts */
 /* site colours */
 /* site fonts */
@@ -248,22 +269,42 @@ p {
   margin: 0;
 }
 
-ul,
-li,
-a,
-input {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-}
-
 a {
   font-family: "Mulish", sans-serif;
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+.navBar {
+  padding-top: 20px;
+}
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: solid 1px #2d051a;
+  border-bottom: solid 1px #2d051a;
+  background-color: #f7f7ef;
+}
+.navBar ul li {
+  padding: 15px 70px;
+  border-right: solid 1px #2d051a;
+}
+.navBar ul li a:hover {
+  background-color: #d88de9;
+  padding: 15px 100px;
+}
+.navBar ul li a:focus {
+  background-color: #d88de9;
+}
+.navBar ul li:first-child {
+  border-left: solid 1px #2d051a;
+}
+.navBar ul li:last-child {
+  border-right: solid 1px #2d051a;
+}
+
+header {
+  background-color: #f7f7ef;
 }
