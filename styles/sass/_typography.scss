@@ -1,0 +1,38 @@
+@import "./variables";
+
+html {
+    font-size: 125%;
+    color: #2d051a;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: $headingFont;
+    margin: 0;
+}
+
+p {
+    font-family: $bodyFont;
+    margin: 0;
+}
+
+ul, 
+li, 
+a, 
+input {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: $headingFont;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+}
