@@ -270,7 +270,8 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Mulish", sans-serif;
   margin: 0;
 }
@@ -278,6 +279,7 @@ h4 {
 p {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  text-transform: capitalize;
 }
 
 a {
@@ -286,10 +288,12 @@ a {
 
 h1 {
   margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 h2 {
-  margin-bottom: 5px;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
 h3 {
@@ -364,5 +368,63 @@ header .headerFlex a:hover {
   background-color: #d88de9;
 }
 header .headerFlex a:focus {
+  background-color: #d88de9;
+}
+
+.projects {
+  background-color: #f7f7ef;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #2d051a;
+}
+.projects h2 {
+  margin-bottom: 40px;
+}
+
+.projectGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projectGallery .projectContent {
+  margin: 25px 10px;
+  width: 40%;
+}
+.projectGallery .projectContent img {
+  border-radius: 10px;
+  border: 30px solid #d88de9;
+  -webkit-box-shadow: 0 0 0 2px #2d051a;
+          box-shadow: 0 0 0 2px #2d051a;
+}
+.projectGallery .projectContentDescription {
+  margin-left: 40px;
+}
+.projectGallery .projectContentDescription h4 {
+  margin-bottom: 20px;
+}
+.projectGallery .projectContentDescription p {
+  margin-bottom: 70px;
+}
+.projectGallery .projectContentDescription a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #d4ff4a;
+  border: solid 2px #2d051a;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-right: 15px;
+}
+.projectGallery .projectContentDescription a:hover {
+  background-color: #d88de9;
+}
+.projectGallery .projectContentDescription a:focus {
   background-color: #d88de9;
 }

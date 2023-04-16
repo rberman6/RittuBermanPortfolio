@@ -8,7 +8,8 @@ html {
 h1, 
 h2, 
 h3, 
-h4 {
+h4,
+h5 {
     font-family: $headingFont;
     margin: 0;
 }
@@ -16,6 +17,7 @@ h4 {
 p {
     font-family: $bodyFont;
     margin: 0;
+    text-transform: capitalize;
 }
 
 a {
@@ -24,10 +26,12 @@ a {
 
 h1 {
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 h2 {
-    margin-bottom: 5px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 h3 {

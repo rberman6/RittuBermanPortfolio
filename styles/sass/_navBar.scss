@@ -8,10 +8,8 @@
         border-bottom: solid 2px $quinary;
         background-color: $primary;
         li {
-            // background-color: $secondary;
             padding: 15px 70px;
             border-right: solid 2px $quinary;
-            // border-left: solid 1px $quinary;
             a {
                 &:hover {
                         background-color: $secondary;
