@@ -428,3 +428,48 @@ header .headerFlex a:focus {
 .projectGallery .projectContentDescription a:focus {
   background-color: #d88de9;
 }
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: solid 2px #2d051a;
+}
+.skills h2 {
+  margin-bottom: 50px;
+}
+.skills .iconTextMainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.skills .iconTextMainContainer .iconText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 20px 30px 20px;
+}
+.skills .iconTextMainContainer .iconText p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

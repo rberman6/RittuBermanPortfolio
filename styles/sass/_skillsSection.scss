@@ -1,0 +1,29 @@
+
+.skills {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: $primary;
+    border-bottom: solid 2px $quinary;
+    }
+    .iconTextMainContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .iconText {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 15px 20px 30px 20px;
+                p {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+}
+
