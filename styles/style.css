@@ -430,14 +430,16 @@ header .headerFlex a:focus {
 }
 
 .skills {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 100px;
   border-bottom: solid 2px #2d051a;
+  background-color: #f7f7ef;
 }
 .skills h2 {
   margin-bottom: 50px;
 }
-.skills .iconTextMainContainer {
+
+.iconTextMainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -450,7 +452,7 @@ header .headerFlex a:focus {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.skills .iconTextMainContainer .iconText {
+.iconTextMainContainer .iconText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,8 +467,9 @@ header .headerFlex a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin: 15px 20px 30px 20px;
+  padding-bottom: 10px;
 }
-.skills .iconTextMainContainer .iconText p {
+.iconTextMainContainer .iconText p {
   font-size: 0.8rem;
   text-align: center;
   margin-top: 10px;
