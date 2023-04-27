@@ -3,7 +3,6 @@
     padding-top: 40px;
     padding-bottom: 100px;
     border-bottom: 2px solid $quinary;
-
     h2 {
         margin-bottom: 40px;
     }
@@ -14,7 +13,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     .projectContent {
         margin: 25px 10px;
         width: 40%;
@@ -24,9 +22,38 @@
             box-shadow: 0 0 0 2px $quinary;
         }
     }
+         .projectContentDescription {
+             margin-left: 50px;
+    
+             h4 {
+                 margin-bottom: 20px;
+             }
+    
+             p {
+                 margin-bottom: 70px;
+             }
+    
+             a {
+                 text-transform: uppercase;
+                 font-size: 0.8rem;
+                 background-color: $quaternary;
+                 border: solid 2px $quinary;
+                 border-radius: 30px;
+                 padding: 15px 30px;
+                 margin-right: 15px;
+    
+                 &:hover {
+                     background-color: $secondary;
+                 }
+    
+                 &:focus {
+                     background-color: $secondary;
+                 }
+             }
+         }
 
-    .projectContentDescription {
-        margin-left: 40px;
+    .projectContentDescriptionLeft {
+        margin-right: 50px;
         h4 {
             margin-bottom: 20px;
         }
