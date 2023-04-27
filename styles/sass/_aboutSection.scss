@@ -2,14 +2,44 @@
     background-color: $primary;
     border-bottom: solid 2px $quinary;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    .centerAnchor {
+        text-align: center;
+        a {
+                background-color: $quaternary;
+                border: solid 2px $quinary;
+                border-radius: 30px;
+                padding: 15px 30px;
+        
+                &:hover {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+        
+                &:focus {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+            }
+    }
     .aboutFlex {
         display: flex;
-        .profileImage img{
-            filter: grayscale(100%);
-            // border-radius: 61% 39% 68% 32% / 52% 42% 58% 48%;
-            // border-radius: 61% 39% 68% 32% / 52% 57% 43% 48%;
+        padding-top: 30px;
+        .profileImage {
+            flex: 1 0 33%;
+        } 
+            img {
             border-radius: 61% 39% 68% 32% / 52% 55% 45% 48%;
+            border: solid 1px $quaternary;
+            box-shadow: 0px 0px 68px 13px rgba(212, 255, 74, 0.48);
         }
+        .aboutMeContent {
+           margin: 0 30px;
+            p {
+                line-height: 1.5;
+                padding-bottom: 50px;
+            }
+        }
+        
     }
 }

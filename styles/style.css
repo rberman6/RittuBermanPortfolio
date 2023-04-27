@@ -278,6 +278,7 @@ h5 {
 
 p {
   font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
   margin: 0;
   text-transform: capitalize;
 }
@@ -288,16 +289,27 @@ a {
 
 h1 {
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 h2 {
   margin-bottom: 35px;
   text-align: center;
+  font-size: 2rem;
 }
 
 h3 {
   margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 .navBar {
@@ -320,8 +332,10 @@ h3 {
   border-right: solid 2px #2d051a;
 }
 .navBar ul li a:hover {
-  background-color: #d88de9;
-  padding: 15px 100px;
+  background-color: rgba(216, 141, 233, 0.7019607843);
+  padding: 15px 60px;
+  -webkit-box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
+          box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
 }
 .navBar ul li a:focus {
   background-color: #d88de9;
@@ -355,7 +369,8 @@ header .headerFlex {
   height: 90vh;
 }
 header .headerFlex .tagline {
-  width: 60%;
+  width: 70%;
+  line-height: 1.5;
   text-align: center;
 }
 header .headerFlex a {
@@ -366,9 +381,13 @@ header .headerFlex a {
 }
 header .headerFlex a:hover {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 header .headerFlex a:focus {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 
 .projects {
@@ -424,12 +443,17 @@ header .headerFlex a:focus {
 }
 .projectGallery .projectContentDescription a:hover {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 .projectGallery .projectContentDescription a:focus {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 .projectGallery .projectContentDescriptionLeft {
-  margin-right: 50px;
+  margin-left: 60px;
+  margin-right: 85px;
 }
 .projectGallery .projectContentDescriptionLeft h4 {
   margin-bottom: 20px;
@@ -448,9 +472,13 @@ header .headerFlex a:focus {
 }
 .projectGallery .projectContentDescriptionLeft a:hover {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 .projectGallery .projectContentDescriptionLeft a:focus {
   background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 
 .skills {
@@ -505,15 +533,48 @@ header .headerFlex a:focus {
   background-color: #f7f7ef;
   border-bottom: solid 2px #2d051a;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+}
+.aboutMe .centerAnchor {
+  text-align: center;
+}
+.aboutMe .centerAnchor a {
+  background-color: #d4ff4a;
+  border: solid 2px #2d051a;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+.aboutMe .centerAnchor a:hover {
+  background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+}
+.aboutMe .centerAnchor a:focus {
+  background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 .aboutMe .aboutFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 30px;
 }
-.aboutMe .aboutFlex .profileImage img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.aboutMe .aboutFlex .profileImage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 33%;
+          flex: 1 0 33%;
+}
+.aboutMe .aboutFlex img {
   border-radius: 61% 39% 68% 32%/52% 55% 45% 48%;
+  border: solid 1px #d4ff4a;
+  -webkit-box-shadow: 0px 0px 68px 13px rgba(212, 255, 74, 0.48);
+          box-shadow: 0px 0px 68px 13px rgba(212, 255, 74, 0.48);
+}
+.aboutMe .aboutFlex .aboutMeContent {
+  margin: 0 30px;
+}
+.aboutMe .aboutFlex .aboutMeContent p {
+  line-height: 1.5;
+  padding-bottom: 50px;
 }
