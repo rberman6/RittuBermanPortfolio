@@ -1,0 +1,72 @@
+footer {
+    background-color: $primary;
+    padding-top: 50px;
+    .getInTouchFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        width: 65%;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        }
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+        label {
+            text-align: left;
+            font-family: $bodyFont;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 15px 0 5px 0;
+        }
+        input, textarea {
+            // width: 100%;
+            border: solid 2px $quinary;
+            border-radius: 20px;
+            font-family: $bodyFont;
+            font-size: 1rem;
+            color: quinary;
+        }
+        input {
+            padding: 17px 0 15px 7px;
+        }
+        textarea {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        button {
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 20%;
+            font-family: $headingFont;
+            font-size: 1rem;
+            background-color: $quaternary;
+            border: solid 2px $quinary;
+            border-radius: 30px;
+            padding: 15px 20px;
+                &:hover {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+                &:focus {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: $quinary;
+    padding: 10px 0; 
+    p {
+        color: $tertiary;
+        text-align: center;
+    }
+}

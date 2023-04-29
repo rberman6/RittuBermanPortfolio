@@ -277,7 +277,7 @@ h5 {
 
 p {
   font-family: "Quicksand", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
 }
 
@@ -427,7 +427,7 @@ header .headerFlex a:focus {
 .projects .projectContentDescription {
   margin-left: 50px;
   width: 40%;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 .projects .projectContentDescription h4 {
   margin-top: -40px;
@@ -436,7 +436,7 @@ header .headerFlex a:focus {
 }
 .projects .projectContentDescription h5 {
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .projects .projectContentDescription p {
   margin-bottom: 40px;
@@ -467,12 +467,12 @@ header .headerFlex a:focus {
   padding-bottom: 50px;
 }
 .projects .projectContentDescriptionLeft h4 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-transform: uppercase;
 }
 .projects .projectContentDescriptionLeft h5 {
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .projects .projectContentDescriptionLeft p {
   margin-bottom: 40px;
@@ -594,4 +594,92 @@ header .headerFlex a:focus {
 .aboutMe .aboutFlex .aboutMeContent p {
   line-height: 1.5;
   padding-bottom: 50px;
+}
+
+footer {
+  background-color: #f7f7ef;
+  padding-top: 50px;
+}
+footer .getInTouchFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .getInTouchFlex p {
+  width: 65%;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+footer .getInTouchFlex .contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 35px;
+}
+footer .getInTouchFlex .contactForm label {
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 15px 0 5px 0;
+}
+footer .getInTouchFlex .contactForm input, footer .getInTouchFlex .contactForm textarea {
+  border: solid 2px #2d051a;
+  border-radius: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  color: quinary;
+}
+footer .getInTouchFlex .contactForm input {
+  padding: 17px 0 15px 7px;
+}
+footer .getInTouchFlex .contactForm textarea {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+footer .getInTouchFlex .contactForm button {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 20%;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  background-color: #d4ff4a;
+  border: solid 2px #2d051a;
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+footer .getInTouchFlex .contactForm button:hover {
+  background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+}
+footer .getInTouchFlex .contactForm button:focus {
+  background-color: #d88de9;
+  -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+          box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+}
+
+.copyright {
+  background-color: #2d051a;
+  padding: 10px 0;
+}
+.copyright p {
+  color: #FFF;
+  text-align: center;
 }
