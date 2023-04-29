@@ -6,57 +6,40 @@
     h2 {
         margin-bottom: 40px;
     }
-}
-
-.projectGallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    .projectContent {
-        margin: 25px 10px;
-        width: 40%;
-        img {
-            border-radius: 10px;
-            border: 30px solid $secondary;
-            box-shadow: 0 0 0 2px $quinary;
+        .projectGallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        .projectContent {
+            margin: 25px 0;
+            padding-bottom: 40px;
+            width: 40%;
+            img {
+                border-radius: 10px;
+                border: 30px solid $secondary;
+                outline: 2px solid $quinary;
+                box-shadow: 0px 0px 20px -1px rgba(212, 255, 74, 1);
+                ;
+            }
         }
     }
-         .projectContentDescription {
-             margin-left: 50px;
-             h4 {
-                 margin-bottom: 20px;
-             }
-             p {
-                 margin-bottom: 70px;
-             }
-             a {
-                 text-transform: uppercase;
-                 font-size: 0.8rem;
-                 background-color: $quaternary;
-                 border: solid 2px $quinary;
-                 border-radius: 30px;
-                 padding: 15px 30px;
-                 margin-right: 15px;
-                 &:hover {
-                     background-color: $secondary;
-                     box-shadow: 0px 0px 65px -4px rgba(216,141,233,1);
-                 }
-                 &:focus {
-                    background-color: $secondary;
-                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
-                 }
-             }
-         }
-
-    .projectContentDescriptionLeft {
-        margin-left: 60px;
-        margin-right: 85px;
+        .projectContentDescription {
+            margin-left: 50px;
+            width: 40%;
+            padding-bottom: 40px;
         h4 {
-            margin-bottom: 20px;
+            margin-top: -40px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        h5 {
+            text-transform: uppercase;
+            margin-bottom: 5px;
         }
         p {
-            margin-bottom: 70px;
+            margin-bottom: 40px;
+            line-height: 1.4;
         }
         a {
             text-transform: uppercase;
@@ -76,5 +59,39 @@
             }
         }
     }
-
-}
+        .projectContentDescriptionLeft {
+            // margin-left: 60px;
+            margin-right: 40px;
+            width: 42%;
+            padding-bottom: 50px;
+        h4 {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        h5 {
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 40px;
+            line-height: 1.4;
+        }
+        a {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            background-color: $quaternary;
+            border: solid 2px $quinary;
+            border-radius: 30px;
+            padding: 15px 30px;
+            margin-right: 15px;
+                &:hover {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+                &:focus {
+                    background-color: $secondary;
+                    box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
+                }
+            }
+        }
+    }

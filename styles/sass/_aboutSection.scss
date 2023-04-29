@@ -10,12 +10,10 @@
                 border: solid 2px $quinary;
                 border-radius: 30px;
                 padding: 15px 30px;
-        
                 &:hover {
                     background-color: $secondary;
                     box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
                 }
-        
                 &:focus {
                     background-color: $secondary;
                     box-shadow: 0px 0px 65px -4px rgba(216, 141, 233, 1);
