@@ -1,6 +1,7 @@
 .navBar {
     padding-top: 20px;
     background-color: $primary;
+    cursor: pointer;
     ul {
         display: flex;
         justify-content: center; 
@@ -31,4 +32,34 @@
             border-right: solid 2px $quinary;
         }
     }
+}
+
+// **** MOBILE NAV BAR STYLING **** // 
+.hamburgerMenu {
+    cursor: pointer;
+    padding: 10px;
+    background-color: pink;
+    position: absolute;
+    right: top;
+    top: 10;
+    .bar {
+        width: 40px;
+        height: 3px;
+        background-color: $quinary;
+        margin: 6px 0;
+        border-radius: 10px;  
+    }
+}
+
+.hamburgerMenu.open .bar1{
+    transform: rotate(40deg);
+}
+
+.hamburgerMenu.open .bar2 {
+    opacity: 0;
+}
+
+.hamburgerMenu.open .bar3 {
+    transform: rotate(-40deg);
+    margin-top: -18px;
 }

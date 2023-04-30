@@ -313,6 +313,7 @@ h5 {
 .navBar {
   padding-top: 20px;
   background-color: #f7f7ef;
+  cursor: pointer;
 }
 .navBar ul {
   display: -webkit-box;
@@ -347,6 +348,37 @@ h5 {
 }
 .navBar ul li:last-child {
   border-right: solid 2px #2d051a;
+}
+
+.hamburgerMenu {
+  cursor: pointer;
+  padding: 10px;
+  background-color: pink;
+  position: absolute;
+  right: top;
+  top: 10;
+}
+.hamburgerMenu .bar {
+  width: 40px;
+  height: 3px;
+  background-color: #2d051a;
+  margin: 6px 0;
+  border-radius: 10px;
+}
+
+.hamburgerMenu.open .bar1 {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.hamburgerMenu.open .bar2 {
+  opacity: 0;
+}
+
+.hamburgerMenu.open .bar3 {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  margin-top: -18px;
 }
 
 header {
@@ -713,4 +745,16 @@ footer .getInTouchFlex .contactForm button:focus {
 .copyright p {
   color: #FFF;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .mobileNavBar,
+  .hamburgerMenu {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .navBar {
+    display: none;
+  }
 }

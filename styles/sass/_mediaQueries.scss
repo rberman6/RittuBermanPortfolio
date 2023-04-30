@@ -1,0 +1,12 @@
+@media (max-width: 480px) {
+    .mobileNavBar,
+    .hamburgerMenu {
+            display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .navBar {
+        display: none;
+    }
+}
