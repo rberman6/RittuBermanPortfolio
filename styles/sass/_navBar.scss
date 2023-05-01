@@ -38,16 +38,16 @@
 .hamburgerMenu {
     cursor: pointer;
     padding: 10px;
-    background-color: pink;
+    background-color: $primary;
     position: absolute;
-    right: top;
-    top: 10;
+    right: 0px;
     .bar {
         width: 40px;
         height: 3px;
         background-color: $quinary;
         margin: 6px 0;
         border-radius: 10px;  
+        transition: 0.4s;
     }
 }
 
@@ -62,4 +62,34 @@
 .hamburgerMenu.open .bar3 {
     transform: rotate(-40deg);
     margin-top: -18px;
+}
+
+.mobileNavBar {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s;
+    background-color: $primary;
+    ul {
+        text-transform: uppercase;
+        li {
+            margin: 20px 0 15px 15px;
+            a {
+                &:hover {
+                        background-color: #d88de9b3;
+                        padding: 5px;
+                        box-shadow: 0px 0px 43px 13px rgba(216, 141, 233, 0.79);
+                    }
+            
+                    &:focus {
+                        background-color: $secondary;
+                        padding: 15px 60px;
+                        box-shadow: 0px 0px 64px 27px rgba(216, 141, 233, 1);
+                    }
+                }
+        }
+    }
+}
+
+.mobileNavBar.mobile {
+    height: 200px;
 }
