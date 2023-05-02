@@ -660,6 +660,7 @@ header .headerFlex a:focus {
 .aboutMe .aboutFlex .aboutMeContent p {
   line-height: 1.5;
   padding-bottom: 50px;
+  font-size: 1rem;
 }
 
 footer {
@@ -846,6 +847,35 @@ footer .getInTouchFlex .contactForm button:focus {
   .projects .projectGallery .projectContentDescriptionLeft a {
     padding: 12px;
     font-size: 1rem;
+  }
+  .skills {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .skills svg {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutMe {
+    padding-top: 50px;
+  }
+  .aboutMe h2 {
+    margin-bottom: 0;
+  }
+  .aboutMe .aboutFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutMe .aboutFlex .aboutMeContent {
+    margin: 0;
+  }
+  .aboutMe .aboutFlex .aboutMeContent p {
+    padding-bottom: 35px;
+  }
+  .aboutMe .aboutFlex .profileImage {
+    margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) {

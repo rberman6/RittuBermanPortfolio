@@ -64,6 +64,35 @@
         }
         }
     }
+    // ---- Skills section ---- //
+    .skills {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        svg {
+                width: 40px;
+                height: 40px;
+            }
+    }
+    // ---- About Me section ---- //
+    .aboutMe {
+        padding-top: 50px; 
+        h2  {
+            margin-bottom: 0;
+        }    
+        .aboutFlex {
+        flex-direction: column;
+        .aboutMeContent {
+            margin: 0;
+            p {
+                padding-bottom: 35px;
+            }
+        }
+        .profileImage {
+            margin-bottom: 40px;
+        }
+    }
+}
+        
 }
 
 
