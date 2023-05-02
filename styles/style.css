@@ -793,13 +793,14 @@ footer .getInTouchFlex .contactForm button:focus {
     height: auto;
   }
   header {
-    height: 80vh;
     padding-top: 45px;
+    padding-bottom: 40px;
   }
   header .headerFlex {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    height: 65vh;
   }
   header .headerFlex h1 {
     margin-top: 20px;
@@ -815,6 +816,36 @@ footer .getInTouchFlex .contactForm button:focus {
   }
   header .headerFlex a {
     margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  .projects {
+    padding-bottom: 60px;
+  }
+  .projects h2 {
+    margin-bottom: 20px;
+  }
+  .projects .projectGallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projects .projectGallery .projectContent {
+    width: 100%;
+  }
+  .projects .projectGallery .projectContentDescription,
+  .projects .projectGallery .projectContentDescriptionLeft {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .projects .projectGallery .projectContentDescription a,
+  .projects .projectGallery .projectContentDescriptionLeft a {
+    padding: 12px;
+    font-size: 1rem;
   }
 }
 @media (min-width: 768px) {
