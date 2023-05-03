@@ -81,17 +81,33 @@
         }    
         .aboutFlex {
         flex-direction: column;
-        .aboutMeContent {
+            .aboutMeContent {
             margin: 0;
-            p {
+                p {
                 padding-bottom: 35px;
+                }
+            }
+            .profileImage {
+            margin-bottom: 40px;
             }
         }
-        .profileImage {
-            margin-bottom: 40px;
-        }
     }
-}
+    // ---- Get in touch section ---- //
+    footer .getInTouchFlex {
+           p {
+            width: 100%;
+            font-size: 1.1rem;
+            text-align: left; 
+           }
+           .contactForm {
+            width: 100%;
+            button {
+                width: 40%;
+                margin-top: 45px;
+            }
+           }
+        }
+
         
 }
 
