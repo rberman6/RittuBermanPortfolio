@@ -483,12 +483,15 @@ header .headerFlex a:focus {
   padding-bottom: 40px;
   width: 40%;
 }
+.projects .projectGallery .projectContent .border {
+  border: 2px solid #2d051a;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 20px -1px rgb(212, 255, 74);
+          box-shadow: 0px 0px 20px -1px rgb(212, 255, 74);
+}
 .projects .projectGallery .projectContent img {
   border-radius: 10px;
   border: 30px solid #d88de9;
-  outline: 2px solid #2d051a;
-  -webkit-box-shadow: 0px 0px 20px -1px rgb(212, 255, 74);
-          box-shadow: 0px 0px 20px -1px rgb(212, 255, 74);
 }
 .projects .projectContentDescription {
   margin-left: 50px;

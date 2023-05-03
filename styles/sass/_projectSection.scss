@@ -15,11 +15,14 @@
             margin: 25px 0;
             padding-bottom: 40px;
             width: 40%;
+            .border {
+                border: 2px solid $quinary;
+                border-radius: 12px;
+                box-shadow: 0px 0px 20px -1px rgba(212, 255, 74, 1);
+            }
             img {
                 border-radius: 10px;
-                border: 30px solid $secondary;
-                outline: 2px solid $quinary;
-                box-shadow: 0px 0px 20px -1px rgba(212, 255, 74, 1);
+                border: 30px solid $secondary;        
                 ;
             }
         }
