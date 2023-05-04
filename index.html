@@ -54,7 +54,7 @@
     <section class ="projects" id="projects">
         <div class="wrapper projectFlex">
             <h2>Projects</h2>
-            <ul class="projectGallery">
+            <ul class="projectGallery"> <!-- this is also a flex container for the projects -->
                 <li class="projectContent">
                     <div class="border">
                         <img class="image image1" src="./assets/barOne.png" alt="screen shot of bar resturant website">
@@ -321,8 +321,11 @@
         <div class="wrapper getInTouchFlex">
             <h2>Get in Touch</h2>
             <p>Interested in learning more about my web development & design skills? Drop a message to explore how we can collaborate and drive your organization's success forward.</p>
-            <!-- social icons HERE -->
+            <!-- social icons start HERE. -->
             <ul class="iconFlex">
+                <li>
+                    
+                </li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="40px"
                         height="40px" fill-rule="nonzero">
@@ -365,20 +368,21 @@
                         </g>
                     </svg>
                 </li>
-            </ul>
-            <form action="https://formspree.io/f/mjvdjqzr" method="POST" class="contactForm">
-
-                <label for="name">Name:</label>
-                <input type="text" id="name">
+            </ul> <!-- Social icons ENDS. -->
+            <!-- Contact Form starts HERE. -->
+                <form action="https://formspree.io/f/mjvdjqzr" method="POST" class="contactForm">
                 
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email">
-                
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="70" rows="10"></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email">
+                    
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="70" rows="10"></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form><!-- Contact Form ENDS. -->
             </div> <!-- wrapper ENDS. -->
         <div class="copyright">
             <p>&copy; 2023 Website built by Rittu Berman. All rights reserved.</p>

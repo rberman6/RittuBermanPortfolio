@@ -691,6 +691,7 @@ footer .getInTouchFlex p {
   text-align: center;
   line-height: 1.5;
   margin-bottom: 25px;
+  font-size: 1rem;
 }
 footer .getInTouchFlex .iconFlex {
   display: -webkit-box;
@@ -702,6 +703,7 @@ footer .getInTouchFlex .iconFlex {
 }
 footer .getInTouchFlex .iconFlex li {
   margin: 0 7px;
+  cursor: pointer;
 }
 footer .getInTouchFlex .iconFlex li:hover {
   background-color: rgba(216, 141, 233, 0.7019607843);
@@ -757,21 +759,25 @@ footer .getInTouchFlex .contactForm button {
   margin-top: 25px;
   width: 20%;
   font-family: "Mulish", sans-serif;
+  color: #2d051a;
   font-size: 1rem;
   background-color: #d4ff4a;
   border: solid 2px #2d051a;
   border-radius: 30px;
   padding: 15px 20px;
+  cursor: pointer;
 }
 footer .getInTouchFlex .contactForm button:hover {
   background-color: #d88de9;
   -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
           box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+  color: #2d051a;
 }
 footer .getInTouchFlex .contactForm button:focus {
   background-color: #d88de9;
   -webkit-box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
           box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
+  color: #2d051a;
 }
 
 .copyright {
@@ -847,6 +853,10 @@ footer .getInTouchFlex .contactForm button:focus {
     margin-right: 0;
     width: 100%;
   }
+  .projects .projectGallery .projectContentDescription p,
+  .projects .projectGallery .projectContentDescriptionLeft p {
+    font-size: 1rem;
+  }
   .projects .projectGallery .projectContentDescription a,
   .projects .projectGallery .projectContentDescriptionLeft a {
     padding: 12px;
@@ -876,6 +886,7 @@ footer .getInTouchFlex .contactForm button:focus {
     margin: 0;
   }
   .aboutMe .aboutFlex .aboutMeContent p {
+    font-size: 1.1rem;
     padding-bottom: 35px;
   }
   .aboutMe .aboutFlex .profileImage {
