@@ -4,14 +4,14 @@
     padding-bottom: 100px;
     border-bottom: 2px solid $quinary;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 45px;
     }
         .projectGallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-        .projectContent{
+        .projectContent {
             margin: 25px 0;
             padding-bottom: 20px;
             width: 40%;
@@ -28,9 +28,11 @@
         }
     }
         .projectContentDescription {
+            margin-top: 10px;
             margin-left: 50px;
             width: 40%;
             padding-bottom: 50px;
+            padding-top: 10px;
         h4 {
             margin-top: -40px;
             margin-bottom: 15px;
@@ -46,7 +48,7 @@
         }
         a {
             text-transform: uppercase;
-            font-size: 1rem;
+            font-size: 0.8rem;
             background-color: $quaternary;
             border: solid 2px $quinary;
             border-radius: 30px;
@@ -63,10 +65,11 @@
         }
     }
         .projectContentDescriptionLeft {
-            // margin-left: 60px;
+            margin-top: 20px;
             margin-right: 40px;
             width: 42%;
             padding-bottom: 50px;
+            padding-top: 10px;
         h4 {
             margin-bottom: 12px;
             text-transform: uppercase;

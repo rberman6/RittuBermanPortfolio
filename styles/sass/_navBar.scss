@@ -15,12 +15,12 @@
             a {
                 &:hover {
                     background-color: #d88de9b3;
-                    padding: 15px 60px;
+                    padding: 15px 40px;
                     box-shadow: 0px 0px 64px 27px rgba(216, 141, 233, 1);
                     }
                     &:focus {
                     background-color: $secondary;
-                    padding: 15px 60px;
+                    padding: 15px 40px;
                     box-shadow: 0px 0px 64px 27px rgba(216, 141, 233, 1);
                     }
             }

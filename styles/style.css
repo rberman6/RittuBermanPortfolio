@@ -277,7 +277,7 @@ h5 {
 
 p {
   font-family: "Quicksand", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 0;
 }
 
@@ -333,13 +333,13 @@ h5 {
 }
 .navBar ul li a:hover {
   background-color: rgba(216, 141, 233, 0.7019607843);
-  padding: 15px 60px;
+  padding: 15px 40px;
   -webkit-box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
           box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
 }
 .navBar ul li a:focus {
   background-color: #d88de9;
-  padding: 15px 60px;
+  padding: 15px 40px;
   -webkit-box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
           box-shadow: 0px 0px 64px 27px rgb(216, 141, 233);
 }
@@ -463,7 +463,7 @@ header .headerFlex a:focus {
   border-bottom: 2px solid #2d051a;
 }
 .projects h2 {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .projects .projectGallery {
   display: -webkit-box;
@@ -494,9 +494,11 @@ header .headerFlex a:focus {
   border: 30px solid #d88de9;
 }
 .projects .projectContentDescription {
+  margin-top: 10px;
   margin-left: 50px;
   width: 40%;
   padding-bottom: 50px;
+  padding-top: 10px;
 }
 .projects .projectContentDescription h4 {
   margin-top: -40px;
@@ -513,7 +515,7 @@ header .headerFlex a:focus {
 }
 .projects .projectContentDescription a {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
   background-color: #d4ff4a;
   border: solid 2px #2d051a;
   border-radius: 30px;
@@ -531,9 +533,11 @@ header .headerFlex a:focus {
           box-shadow: 0px 0px 65px -4px rgb(216, 141, 233);
 }
 .projects .projectContentDescriptionLeft {
+  margin-top: 20px;
   margin-right: 40px;
   width: 42%;
   padding-bottom: 50px;
+  padding-top: 10px;
 }
 .projects .projectContentDescriptionLeft h4 {
   margin-bottom: 12px;
@@ -937,6 +941,76 @@ footer .getInTouchFlex .contactForm button:focus {
   footer .getInTouchFlex .contactForm button {
     width: 40%;
     margin-top: 45px;
+  }
+}
+@media (min-width: 767px) and (max-width: 862px) {
+  .navBar {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .navBar ul li {
+    padding: 15px 40px;
+  }
+  header {
+    padding-bottom: 40px;
+  }
+  .projects h2 {
+    padding-bottom: 40px;
+  }
+  .projects .projectGallery .projectContent {
+    width: 40%;
+  }
+  .projects .projectContentDescription,
+  .projects .projectContentDescriptionLeft {
+    margin-top: 45px;
+  }
+  .projects .projectContentDescription h4,
+  .projects .projectContentDescription h5,
+  .projects .projectContentDescription p,
+  .projects .projectContentDescriptionLeft h4,
+  .projects .projectContentDescriptionLeft h5,
+  .projects .projectContentDescriptionLeft p {
+    font-size: 0.8rem;
+  }
+  .projects .projectContentDescription a,
+  .projects .projectContentDescriptionLeft a {
+    padding: 12px 20px;
+  }
+  .projects .projectContentDescription,
+  .projects .projectContentDescriptionLeft {
+    width: 45%;
+  }
+}
+@media (min-width: 863px) and (max-width: 1020px) {
+  .navBar {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .navBar ul li {
+    padding: 15px 40px;
+  }
+  header {
+    padding-bottom: 40px;
+  }
+  .projects h2 {
+    padding-bottom: 30px;
+  }
+  .projects .projectGallery .projectContent {
+    width: 50%;
+  }
+  .projects .projectContentDescription,
+  .projects .projectContentDescriptionLeft {
+    margin-top: 45px;
+  }
+  .projects .projectContentDescription h4, .projects .projectContentDescription h5, .projects .projectContentDescription p,
+  .projects .projectContentDescriptionLeft h4,
+  .projects .projectContentDescriptionLeft h5,
+  .projects .projectContentDescriptionLeft p {
+    font-size: 0.8rem;
+  }
+  .projects .projectContentDescription a,
+  .projects .projectContentDescriptionLeft a {
+    padding: 12px 20px;
   }
 }
 @media (min-width: 767px) {
