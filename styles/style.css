@@ -458,12 +458,12 @@ header .headerFlex a:focus {
 
 .projects {
   background-color: #f7f7ef;
-  padding-top: 40px;
+  padding-top: 55px;
   padding-bottom: 100px;
   border-bottom: 2px solid #2d051a;
 }
 .projects h2 {
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 .projects .projectGallery {
   display: -webkit-box;
@@ -623,11 +623,12 @@ header .headerFlex a:focus {
 .aboutMe {
   background-color: #f7f7ef;
   border-bottom: solid 2px #2d051a;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .aboutMe .centerAnchor {
   text-align: center;
+  margin-top: 30px;
 }
 .aboutMe .centerAnchor a {
   background-color: #d4ff4a;
@@ -734,6 +735,7 @@ footer .getInTouchFlex .contactForm {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 35px;
+  padding-bottom: 40px;
 }
 footer .getInTouchFlex .contactForm label {
   text-align: left;
@@ -786,10 +788,11 @@ footer .getInTouchFlex .contactForm button:focus {
 
 .copyright {
   background-color: #2d051a;
-  padding: 10px 0;
+  padding: 14px 0;
 }
 .copyright p {
   color: #FFF;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -818,7 +821,7 @@ footer .getInTouchFlex .contactForm button:focus {
     height: 65vh;
   }
   header .headerFlex h1 {
-    margin-top: 20px;
+    margin-top: 35px;
     padding-bottom: 20px;
   }
   header .headerFlex .tagline {
@@ -837,7 +840,7 @@ footer .getInTouchFlex .contactForm button:focus {
     padding-bottom: 60px;
   }
   .projects h2 {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
   .projects .projectGallery {
     -webkit-box-orient: vertical;
@@ -912,7 +915,7 @@ footer .getInTouchFlex .contactForm button:focus {
     padding-top: 50px;
   }
   .aboutMe h2 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .aboutMe .aboutFlex {
     -webkit-box-orient: vertical;
@@ -934,13 +937,16 @@ footer .getInTouchFlex .contactForm button:focus {
     width: 100%;
     font-size: 1.1rem;
     text-align: left;
+    padding: 30px 0;
   }
   footer .getInTouchFlex .contactForm {
+    margin-top: 24px;
     width: 100%;
   }
   footer .getInTouchFlex .contactForm button {
     width: 40%;
     margin-top: 45px;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 767px) and (max-width: 862px) {
@@ -955,7 +961,7 @@ footer .getInTouchFlex .contactForm button:focus {
     padding-bottom: 40px;
   }
   .projects h2 {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
   .projects .projectGallery .projectContent {
     width: 40%;
@@ -970,7 +976,7 @@ footer .getInTouchFlex .contactForm button:focus {
   .projects .projectContentDescriptionLeft h4,
   .projects .projectContentDescriptionLeft h5,
   .projects .projectContentDescriptionLeft p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .projects .projectContentDescription a,
   .projects .projectContentDescriptionLeft a {
@@ -980,8 +986,33 @@ footer .getInTouchFlex .contactForm button:focus {
   .projects .projectContentDescriptionLeft {
     width: 45%;
   }
+  .aboutMe .aboutFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutMe .aboutFlex .profileImage {
+    padding: 30px 20px;
+  }
+  .aboutMe .centerAnchor {
+    margin-top: 50px;
+  }
+  footer .getInTouchFlex p {
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  footer .getInTouchFlex .contactForm {
+    width: 100%;
+  }
+  footer .getInTouchFlex .contactForm button {
+    width: 30%;
+    margin-top: 45px;
+  }
 }
-@media (min-width: 863px) and (max-width: 1020px) {
+@media (min-width: 863px) and (max-width: 1199px) {
   .navBar {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -996,17 +1027,18 @@ footer .getInTouchFlex .contactForm button:focus {
     padding-bottom: 30px;
   }
   .projects .projectGallery .projectContent {
-    width: 50%;
+    width: 48%;
   }
   .projects .projectContentDescription,
   .projects .projectContentDescriptionLeft {
+    padding-top: 15px;
     margin-top: 45px;
   }
   .projects .projectContentDescription h4, .projects .projectContentDescription h5, .projects .projectContentDescription p,
   .projects .projectContentDescriptionLeft h4,
   .projects .projectContentDescriptionLeft h5,
   .projects .projectContentDescriptionLeft p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .projects .projectContentDescription a,
   .projects .projectContentDescriptionLeft a {

@@ -39,6 +39,7 @@ footer {
         display: flex;
         flex-direction: column;
         margin-bottom: 35px;
+        padding-bottom: 40px;
         label {
             text-align: left;
             font-family: $bodyFont;
@@ -92,9 +93,10 @@ footer {
 
 .copyright {
     background-color: $quinary;
-    padding: 10px 0; 
+    padding: 14px 0; 
     p {
         color: $tertiary;
+        font-size: 0.8rem;
         text-align: center;
     }
 }
