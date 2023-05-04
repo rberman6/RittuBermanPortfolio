@@ -480,7 +480,7 @@ header .headerFlex a:focus {
 }
 .projects .projectGallery .projectContent {
   margin: 25px 0;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   width: 40%;
 }
 .projects .projectGallery .projectContent .border {
@@ -789,7 +789,7 @@ footer .getInTouchFlex .contactForm button:focus {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 766px) {
   .hamburgerMenu {
     display: block;
   }
@@ -826,14 +826,14 @@ footer .getInTouchFlex .contactForm button:focus {
     font-size: 1.2rem;
   }
   header .headerFlex a {
-    margin-top: 10px;
+    margin-top: 20px;
     padding-bottom: 20px;
   }
   .projects {
     padding-bottom: 60px;
   }
   .projects h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .projects .projectGallery {
     -webkit-box-orient: vertical;
@@ -844,6 +844,36 @@ footer .getInTouchFlex .contactForm button:focus {
         -ms-flex-align: center;
             align-items: center;
   }
+  .projects .projectGallery li:nth-of-type(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .projects .projectGallery li:nth-of-type(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .projects .projectGallery li:nth-of-type(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .projects .projectGallery li:nth-of-type(4) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .projects .projectGallery li:nth-of-type(5) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  .projects .projectGallery li:nth-of-type(6) {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
   .projects .projectGallery .projectContent {
     width: 100%;
   }
@@ -852,6 +882,10 @@ footer .getInTouchFlex .contactForm button:focus {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+  }
+  .projects .projectGallery .projectContentDescription h4,
+  .projects .projectGallery .projectContentDescriptionLeft h4 {
+    margin-top: 30px;
   }
   .projects .projectGallery .projectContentDescription p,
   .projects .projectGallery .projectContentDescriptionLeft p {
@@ -905,7 +939,7 @@ footer .getInTouchFlex .contactForm button:focus {
     margin-top: 45px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .hamburgerMenu {
     display: none;
   }
