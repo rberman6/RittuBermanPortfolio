@@ -4,6 +4,24 @@
     padding-bottom: 60px;
     border-bottom: solid 2px $quinary;
     background-color: $primary;
+    .gradientBlob3, .gradientBlob4 {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(50px);
+    }
+    .gradientBlob3 {
+            height: 100px;
+            width: 250px;
+            top: 1990px;
+            background-image: radial-gradient(circle at 45% 45%, #d88de9, #d88de95a);
+        }
+    .gradientBlob4 {
+            height: 50px;
+            width: 250px;
+            top: 2500px;
+            right: 100px;
+            background-image: radial-gradient(circle at 45% 45%, #d88de9, #d88de95a);
+        }
     h2 {
         margin-bottom: 50px;
     }
