@@ -285,6 +285,7 @@ p {
 
 a {
   font-family: "Mulish", sans-serif;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -1025,7 +1026,7 @@ footer .getInTouchFlex .contactForm button:focus {
     margin-bottom: 40px;
   }
   footer .getInTouchFlex .gradientBlob5 {
-    height: 100px;
+    height: 150px;
     width: 200px;
     bottom: -4130px;
   }
