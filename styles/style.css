@@ -273,14 +273,16 @@ h4,
 h5 {
   font-family: "Mulish", sans-serif;
   margin: 0;
-  z-index: 10;
+  position: relative;
+  z-index: 20;
 }
 
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
   margin: 0;
-  z-index: 10;
+  position: relative;
+  z-index: 20;
 }
 
 a {
@@ -721,6 +723,7 @@ header .headerFlex a:focus {
 }
 .aboutMe .aboutFlex .aboutMeContent {
   margin: 0 30px;
+  padding-right: 20px;
 }
 .aboutMe .aboutFlex .aboutMeContent p {
   line-height: 1.5;
@@ -1026,9 +1029,9 @@ footer .getInTouchFlex .contactForm button:focus {
     margin-bottom: 40px;
   }
   footer .getInTouchFlex .gradientBlob5 {
-    height: 150px;
-    width: 200px;
-    bottom: -4130px;
+    height: 110px;
+    width: 150px;
+    bottom: -4260px;
   }
   footer .getInTouchFlex .gradientBlob6 {
     height: 200px;

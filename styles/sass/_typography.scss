@@ -12,14 +12,16 @@ h4,
 h5 {
     font-family: $headingFont;
     margin: 0;
-    z-index: 10;
+    position: relative;
+    z-index: 20;
 }
 
 p {
     font-family: $bodyFont;
     font-size: 0.9rem;
     margin: 0;
-    z-index: 10;
+    position: relative;
+    z-index: 20;
 }
 
 a {
