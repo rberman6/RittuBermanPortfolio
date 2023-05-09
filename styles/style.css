@@ -452,9 +452,9 @@ header .headerFlex .gradientBlob1 {
 }
 header .headerFlex .gradientBlob2 {
   height: 100px;
-  width: 100px;
+  width: 150px;
   top: 600px;
-  right: 200px;
+  right: 180px;
   background-image: radial-gradient(circle at 45% 45%, #d88de9, rgba(216, 141, 233, 0.3529411765));
 }
 header .headerFlex h1 {
@@ -497,7 +497,7 @@ header .headerFlex a:focus {
 
 .projects {
   background-color: #f7f7ef;
-  padding-top: 55px;
+  padding-top: 70px;
   padding-bottom: 100px;
   border-bottom: 2px solid #2d051a;
 }
@@ -612,8 +612,8 @@ header .headerFlex a:focus {
 }
 
 .skills {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   border-bottom: solid 2px #2d051a;
   background-color: #f7f7ef;
 }
@@ -681,8 +681,8 @@ header .headerFlex a:focus {
 .aboutMe {
   background-color: #f7f7ef;
   border-bottom: solid 2px #2d051a;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 110px;
 }
 .aboutMe .centerAnchor {
   text-align: center;
@@ -733,7 +733,7 @@ header .headerFlex a:focus {
 
 footer {
   background-color: #f7f7ef;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 footer .gradientBlob5, footer .gradientBlob6 {
   position: absolute;
@@ -898,7 +898,7 @@ footer .getInTouchFlex .contactForm button:focus {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: 65vh;
+    height: 70vh;
   }
   header .headerFlex .gradientBlob1 {
     top: 60px;
@@ -1031,12 +1031,12 @@ footer .getInTouchFlex .contactForm button:focus {
   footer .getInTouchFlex .gradientBlob5 {
     height: 110px;
     width: 150px;
-    bottom: -4260px;
+    bottom: -4290px;
   }
   footer .getInTouchFlex .gradientBlob6 {
     height: 200px;
     width: 250px;
-    bottom: -4800px;
+    bottom: -4830px;
   }
   footer .getInTouchFlex p {
     width: 100%;

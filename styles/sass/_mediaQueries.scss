@@ -21,7 +21,7 @@
         padding-bottom: 80px;
         .headerFlex {
             justify-content: flex-start;
-            height: 65vh;
+            height: 70vh;
             .gradientBlob1 {
                 top: 60px;
                 height: 180px;
@@ -138,12 +138,12 @@
             .gradientBlob5 {
                 height: 110px;
                 width: 150px;
-                bottom: -4260px;
+                bottom: -4290px;
             }
             .gradientBlob6 {
                 height: 200px;
                 width: 250px;
-                bottom: -4800px;
+                bottom: -4830px;
             }
            p {
             width: 100%;
@@ -243,7 +243,7 @@
         }
     }
 
-// *** TABLET and DESKTOP LAYOUT *** //
+// *** LARGE TABLET and DESKTOP LAYOUT *** //
 @media (min-width: 863px) and (max-width: 1199px) {
     // ---- navigation bar ---- //
     .navBar {
