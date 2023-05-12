@@ -21,17 +21,17 @@ footer {
         background-image: radial-gradient(circle at 45% 45%, #d88de9d8, #d88de95a);
     }
     .getInTouchFlex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    p {
-        width: 65%;
-        text-align: center;
-        line-height: 1.5;
-        margin-bottom: 25px;
-        font-size: 1rem;
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            width: 65%;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            font-size: 1rem;
+            }
     .iconFlex {
         display: flex;
         align-items: center;
